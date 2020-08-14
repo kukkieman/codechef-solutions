@@ -2,14 +2,18 @@
 using namespace std;
 
 int main(){
+
     int t, n;
     cin>>t;
     while(t--){
+    
         cin>>n;
         int sum, arr[n], max=0, pro=0;
+        
         for(int i=0; i<n; i++){
             cin>>arr[i];
         }
+        
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
                 if(i==j)
@@ -20,7 +24,6 @@ int main(){
                         sum=sum+pro%10;
                         pro=pro/10;
                     }
-                    //cout<<"-"<<sum<<"-";
                     if(sum>max)
                         max=sum;
                 }
