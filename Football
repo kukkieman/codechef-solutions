@@ -30,6 +30,7 @@ int main(){
                 m=a[i];
         }
         cout<<m<<endl;
+        
     }
     return 0;
 }
