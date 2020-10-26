@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+int main(){
   int t;
   cin>>t;
-  while(t--) {
+  while(t--){
     int k;
     cin>>k;
     for(int c=0; c<8; c++){
