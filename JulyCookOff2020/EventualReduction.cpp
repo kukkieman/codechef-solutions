@@ -2,15 +2,14 @@
 #include<cmath>
 using namespace std;
 
-int main() {
+int main(){
   short int t;
   cin>>t;
-  while(t--) {
+  while(t--){
     int n;
     cin>>n;
     char arr[n];
     for(int i=0; i<n; i++) cin>>arr[i];
-
     for(int i=0; i<n; i++){
       for(int j=i; j<n; j++){
         if(arr[i]==arr[j]){
@@ -21,7 +20,6 @@ int main() {
         }
       }
     }
-
     bool continue=true;
     do{
       for(int i=0; i<n-1; i++){
